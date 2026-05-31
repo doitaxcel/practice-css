@@ -22,7 +22,7 @@ project/
 ├── index.html
 ├── style.css
 └── firstApp/
-    └── index.html
+    └── main.html
 ```
 
 ## Getting Started
@@ -77,4 +77,4 @@ This repository is intended for:
 ---
 
 **Note:** This project is for educational and practice purposes only.
-"# css-practice" 
+"# css-practice"
