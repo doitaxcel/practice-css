@@ -23,6 +23,8 @@ project/
 ├── style.css
 └── firstApp/
     └── main.html
+└── secondApp/
+    └── main.html
 ```
 
 ## Getting Started
