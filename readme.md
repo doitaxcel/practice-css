@@ -22,9 +22,9 @@ project/
 ├── index.html
 ├── style.css
 └── firstApp/
-    └── main.html
+    └── app1.html
 └── secondApp/
-    └── main.html
+    └── app2.html
 ```
 
 ## Getting Started
