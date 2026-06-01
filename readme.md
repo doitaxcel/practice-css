@@ -37,7 +37,8 @@ project/
 
 - ✅ Basic HTML structure completed
 - ✅ External CSS integration
-- ⚠️ No responsive design or media queries implemented yet
+- ~~⚠️ No responsive design or media queries implemented yet~~
+- ✅ Responsive design and media queries implemented
 
 ## Technologies Used
 
@@ -70,7 +71,7 @@ This repository is intended for:
 
 ## Future Improvements
 
-- Add responsive design with media queries
+- ✅ Add responsive design with media queries
 - Improve page styling and layout
 - Add additional practice projects
 - Enhance accessibility

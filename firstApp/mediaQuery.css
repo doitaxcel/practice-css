@@ -1,0 +1,178 @@
+/* =========================
+   TABLET
+========================= */
+@media (max-width: 1024px) {
+  header {
+    padding: 2rem;
+  }
+
+  .features-section,
+  .video-section,
+  .programs-section,
+  .form-section {
+    padding: 60px;
+  }
+
+  .features-section {
+    flex-direction: column;
+  }
+
+  .feature-primary,
+  .feature-secondary {
+    margin-bottom: 50px;
+  }
+
+  .program-cards {
+    flex-wrap: wrap;
+  }
+
+  .program-card {
+    flex-basis: calc(50% - 10px);
+  }
+
+  .form-section {
+    flex-direction: column;
+  }
+
+  .form-left,
+  .form-right {
+    width: 100%;
+  }
+}
+
+/* =========================
+   MOBILE
+========================= */
+@media (max-width: 768px) {
+  header {
+    padding: 1.5rem;
+  }
+
+  nav {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .nav-bookmarks ul {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  .hero-section {
+    padding: 20px;
+  }
+
+  .hero-title {
+    font-size: 1.5rem;
+  }
+
+  .hero-subtitle {
+    margin-top: 10px;
+    font-size: 1rem;
+  }
+
+  .features-section,
+  .video-section,
+  .programs-section,
+  .form-section {
+    padding: 40px;
+  }
+
+  .ftr-title {
+    font-size: 1.2rem;
+  }
+
+  .video-container {
+    height: 350px;
+  }
+
+  .program-cards {
+    flex-direction: column;
+  }
+
+  .program-card {
+    flex-basis: 100%;
+    height: auto;
+  }
+
+  .program-img-container img {
+    height: 250px;
+  }
+
+  .form-left {
+    height: auto;
+  }
+
+  .form-img-container img {
+    height: 350px;
+  }
+}
+
+/* =========================
+   SMALL MOBILE
+========================= */
+@media (max-width: 480px) {
+  header {
+    padding: 1rem;
+  }
+
+  .header-logo {
+    font-size: 1.5rem;
+  }
+
+  .nav-bookmarks ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .hero-title {
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+  }
+
+  .hero-subtitle {
+    font-size: 0.9rem;
+  }
+
+  .features-section,
+  .video-section,
+  .programs-section,
+  .form-section {
+    padding: 25px;
+  }
+
+  .learn-more-section {
+    padding: 40px 20px;
+  }
+
+  .video-title {
+    font-size: 1rem;
+  }
+
+  .video-container {
+    height: 250px;
+  }
+
+  .program-header {
+    font-size: 1.3rem;
+  }
+
+  .program-img-container img {
+    height: 200px;
+  }
+
+  .form-title {
+    font-size: 1.5rem;
+  }
+
+  .label {
+    font-size: 1rem;
+  }
+
+  .element-form-group input,
+  .element-form-group select {
+    font-size: 1rem;
+  }
+}
