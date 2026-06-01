@@ -13,6 +13,37 @@ button {
   transition: background-color 0.3s;
 }
 
+/* HEADER NAV SECTION */
+
+header {
+  padding: 2rem 4rem;
+  width: 100%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-logo {
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+.nav-bookmarks ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+li a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: #000;
+  font-weight: 500;
+}
+
 /* HERO SECTION*/
 .hero-section {
   height: 50vh;
