@@ -133,7 +133,7 @@ ul li a {
 .hero-info {
   display: flex;
   align-items: center;
-  font-size: 1.8rem;
+  font-size: 1.3rem;
 }
 
 /* *********
@@ -290,6 +290,8 @@ ul li a {
  HIGHLIGHTS SECTION
 ********* */
 
+/* TODO: When Hovering in a Picture, there should be a black effect and "See Story" content */
+
 .highlights {
   padding: 4rem 1rem;
   background-color: #f5f5f5;
@@ -368,9 +370,14 @@ ul li a {
   grid-row: 3/4;
 }
 
-.highlight-items img:hover {
-  background: #000;
-  opacity: 50%;
+.highlight-items:hover::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #000;
+  opacity: 10%;
   content: "See More";
   z-index: 10;
 }
@@ -398,10 +405,11 @@ ul li a {
 .gallery-grid-container {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  grid-template-rows: repeat(5, 200px);
+  grid-auto-rows: 200px;
   gap: 2rem;
   height: 1100px;
   margin: 0 none;
+
   grid-template-areas:
     "a b b c d"
     "e e f c g"
@@ -470,9 +478,6 @@ ul li a {
   height: 100%;
   width: 100%;
   object-fit: cover;
-}
-
-.gallery-items {
 }
 
 footer {
